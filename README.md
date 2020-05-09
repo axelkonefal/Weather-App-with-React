@@ -1,8 +1,20 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Weather App with React
+> The project allows user to find the weather from almost every city on the world. It uses API from https://openweathermap.org/ and with helps of React technology and Bootstrap shows the current weather in the given city and country. 
 
-## Available Scripts
+## Table of contents
+* [Technologies](#technologies)
+* [Setup](#setup)
+* [HowTo](#HowTo)
+* [Features](#features)
+* [Status](#status)
+* [Contact](#contact)
 
-In the project directory, you can run:
+
+## Technologies
+* React
+* Bootstrap
+
+## Setup
 
 ### `npm start`
 
@@ -37,32 +49,33 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+## HowTo
+To find the weather just pass the city and the country the given city is placed.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Features
+The app shows weather informations such as:
+* Given location
+* Temperature
+* Perceptible temperature
+* Max temperature
+* Min temperature
+* Pressure
+* Humidity
+* Conditions
 
-### Code Splitting
+## Status
+Project is: _finished_, due to end of the university subject
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
 
-### Analyzing the Bundle Size
+## Contact
+Created by [@flynerdpl](https://www.flynerd.pl/) - feel free to contact me!
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
 
-### Making a Progressive Web App
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
 
-### Advanced Configuration
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
 
-### Deployment
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
 
-### `npm run build` fails to minify
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
