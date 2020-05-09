@@ -69,7 +69,7 @@ Project is: _finished_, due to end of the university subject
 
 
 ## Contact
-Created by [@flynerdpl](https://www.flynerd.pl/) - feel free to contact me!
+Created by Axel Konefał - feel free to contact me via e-mail (axelappdev@gmail.com)!
 
 
 
