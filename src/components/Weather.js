@@ -3,7 +3,7 @@ import React from 'react'
 
 const Weather = props => (
     <div className='weather__info'>
-        {props.city && props.country && <p className='weather__key'>{props.city}, {props.country}</p>}
+        {props.city && props.country && <p className='weather__key_loc'>{props.city}, {props.country}</p>}
         {props.temperature && <p className='weather__key'>Temperature: {props.temperature} °C</p>}
         {props.feels_like && <p className='weather__key'> Perceptible temperature: {props.feels_like} °C</p>}
         {props.temp_max && <p className='weather__key'>Max temperature: {props.temp_max} °C</p>}
