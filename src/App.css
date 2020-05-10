@@ -1,9 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Merriweather:100,200,300,300i,400,400i,700');
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab:400,700');
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400');
+
 
 body {
-  font-family: "Open Sans", serif;
+  font-family: "Roboto Slab", serif;
 }
 
 .wrapper {
@@ -32,19 +31,19 @@ body {
   color: #000;
 }
 
-.title-container__title {
+.title-title {
   font-size: 50px;
   letter-spacing: 2px;
   line-height: 1.3;
   font-family: 'Roboto Slab', serif;
 }
 
-.title-container__subtitle {
+.title-subtitle {
   font-style: italic;
   font-weight: 100;
   letter-spacing: 1px;
   line-height: 1.5;
-  font-family: "Merriweather", serif;
+  font-family: "Roboto Slab", serif;
 }
 
 .form-container {
@@ -71,14 +70,14 @@ input[type="text"] {
 }
 
 
-.weather__info {
+.weather {
  
   font-size: 14px;
   font-weight: 200;
   letter-spacing: 2px;
 }
 
-.weather__key {
+.weather-key {
   color: #000;
   padding-left: 50px;
   padding-bottom: 5px;
@@ -86,7 +85,7 @@ input[type="text"] {
   border-bottom: solid 1px;
 }
 
-.weather__key_loc {
+.weather-key-loc {
   color: #000;
   font-size: 20px;
   letter-spacing: 10px;
@@ -95,13 +94,13 @@ input[type="text"] {
   font-weight: 600;
 }
 
-.weather__key:last-child {
+.weather-key:last-child {
   border: 0;
 }
 
 
 
-.weather__error {
+.weather-error {
   color: #fc2003;
   font-size: 50px;
   letter-spacing: 3px;
